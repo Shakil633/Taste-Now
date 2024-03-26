@@ -15,7 +15,7 @@ const Banner = () => {
         </div>
 
         <img
-          className=" lg:w-[57%] md:w-[58%]  xl:w-[60%] 2xl:w-[70%] w-[100%]"
+          className=" lg:w-[50%] md:w-[58%]  xl:w-[60%] 2xl:w-[70%] w-[100%]"
           style={{
             transform: "rotate(60deg)",
           }}

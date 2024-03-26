@@ -48,7 +48,7 @@ const Footer = () => {
           </span>
         </div>
 
-        <div className="flex md:flex-row flex-row lg:gap-20 md:gap-8 xl:gap-24 2xl:gap-44  md:text-sm xl:text-base 2xl:text-xl">
+        <div className="flex md:flex-row flex-row lg:gap-20 gap-20 md:gap-8 xl:gap-24 2xl:gap-44  md:text-sm xl:text-base 2xl:text-xl">
           <nav className="flex flex-col mb-4 lg:mb-0 lg:mr-4">
             <a className="link link-hover">Seslendirme ve Alt Jazz</a>
             <a className="link link-hover py-3">Media Market</a>

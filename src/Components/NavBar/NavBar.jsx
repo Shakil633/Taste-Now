@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <div className="navbar bg-base-100 lg:px-16 xl:px-28 2xl:px-80 md:px-10 px-5 top-0 fixed z-50 lg:p-3 p-3 md:p-3 xl:p-4 2xl:p-6">
+      <div className="navbar bg-base-100 lg:px-12 xl:px-24 2xl:px-80 md:px-10 px-5 top-0 fixed z-50 lg:p-3 p-3 md:p-3 xl:p-4 2xl:p-6">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -107,7 +107,7 @@ const NavBar = () => {
                   Contact us
                 </li>
                 <div className="mt-10">
-                  <a className="py-2 px-5 rounded-md text-white poppins-regular">
+                  <a className="py-2 px-8 rounded-md text-[#f72d57] bg-[#ffffff] poppins-regular">
                     Sign up
                   </a>
                 </div>

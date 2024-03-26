@@ -11,7 +11,7 @@ function App() {
       <NavBar></NavBar>
       <Banner></Banner>
 
-      <div className="bg-gradient-to-b from-[#faeef0] to-[#fcfcfc] py-20 poppins-regular lg:px-16 xl:px-28 2xl:px-80 md:px-10 px-5">
+      <div className="bg-gradient-to-b from-[#faeef0] to-[#fcfcfc] py-20 poppins-regular lg:px-12 xl:px-24 2xl:px-80 md:px-10 px-5">
         <Popular></Popular>
         <GetTo></GetTo>
         <Environment></Environment>

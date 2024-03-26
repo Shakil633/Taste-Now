@@ -9,7 +9,7 @@ const Footer = () => {
           </p>
 
           <span className=" md:inline hidden">
-            <span className=" flex items-center gap-6">
+            <span className=" flex items-center lg:gap-6 md:gap-2 xl:gap-6 2xl:gap-6">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Footer = () => {
           </span>
         </div>
 
-        <div className="flex md:flex-row flex-row gap-20 md:text-sm xl:text-base 2xl:text-xl">
+        <div className="flex md:flex-row flex-row lg:gap-20 md:gap-8 xl:gap-24 2xl:gap-44  md:text-sm xl:text-base 2xl:text-xl">
           <nav className="flex flex-col mb-4 lg:mb-0 lg:mr-4">
             <a className="link link-hover">Seslendirme ve Alt Jazz</a>
             <a className="link link-hover py-3">Media Market</a>
@@ -62,7 +62,7 @@ const Footer = () => {
           </nav>
         </div>
 
-        <div className="flex md:flex-row flex-row md:gap-20 gap-36 md:text-sm xl:text-base 2xl:text-xl">
+        <div className="flex md:flex-row flex-row lg:gap-20 md:gap-8 xl:gap-24 2xl:gap-44 gap-36 md:text-sm xl:text-base 2xl:text-xl">
           <nav className="flex flex-col mb-4 lg:mb-0 lg:mr-4">
             <a className="link link-hover">Yard Market</a>
             <a className="link link-hover py-3">Is İmkanları</a>

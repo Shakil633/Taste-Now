@@ -50,7 +50,7 @@ const Popular = () => {
               slidesPerView: 1,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
 
             1024: {
@@ -64,7 +64,7 @@ const Popular = () => {
             <div className="card bg-base-100 md:h-[350px] xl:h-[400px] 2xl:h-[450px] shadow-xl rounded-md relative">
               <div className="flex flex-col h-full">
                 <img
-                  className="absolute top-0 right-0  md:w-[28px] xl:w-[40px] 2xl:w-[50px] md:h-[40px] xl:h-[50px] 2xl:h-[60px] mr-5 "
+                  className="absolute top-0 right-0  md:w-[28px] xl:w-[30px] 2xl:w-[50px] md:h-[40px] xl:h-[40px] 2xl:h-[60px] mr-5 "
                   src="https://i.ibb.co/QNsbR1W/Group-3174-1.png"
                   alt=""
                 />
@@ -78,12 +78,12 @@ const Popular = () => {
                 </figure>
                 <div className="card-body flex-1">
                   <div className="text-center">
-                    <h2 className="font-medium md:text-lg xl:text-2xl 2xl:text-2xl">Pepperoni Pizza</h2>
-                    <p className="text-[#646464] py-2 md:text-lg xl:text-xl 2xl:text-2xl">Di napoles</p>
-                    <p className="md:text-lg xl:text-xl 2xl:text-2xl">$11,99</p>
+                    <h2 className="font-medium lg:text-base md:text-lg xl:text-xl 2xl:text-2xl">Pepperoni Pizza</h2>
+                    <p className="text-[#646464] py-2 md:text-base xl:text-xl 2xl:text-2xl">Di napoles</p>
+                    <p className="md:text-base xl:text-xl 2xl:text-2xl">$11,99</p>
                   </div>
                   <div className="card-actions justify-center mt-5">
-                    <button className="py-3 px-8 bg-[#f72d57] text-white rounded-md">
+                    <button className="py-3 px-8 lg:text-[12px] md:text-base xl:text-base 2xl:text-lg bg-[#f72d57] text-white rounded-md">
                       Add to cart
                     </button>
                   </div>
@@ -94,7 +94,7 @@ const Popular = () => {
           <SwiperSlide>
             <div className="card bg-base-100 md:h-[350px] xl:h-[400px] 2xl:h-[450px] shadow-xl rounded-md">
               <img
-                className="absolute top-0 right-0 md:w-[28px] xl:w-[40px] 2xl:w-[50px] md:h-[40px] xl:h-[50px] 2xl:h-[60px] mr-5 "
+                className="absolute top-0 right-0 md:w-[28px] xl:w-[30px] 2xl:w-[50px] md:h-[40px] xl:h-[40px] 2xl:h-[60px] mr-5 "
                 src="https://i.ibb.co/QNsbR1W/Group-3174-1.png"
                 alt=""
               />
@@ -107,13 +107,13 @@ const Popular = () => {
               </figure>
               <div className="card-body">
                 <div className=" text-center">
-                  <h2 className=" font-medium md:text-lg xl:text-2xl 2xl:text-2xl">Pepperoni Pizza</h2>
-                  <p className=" text-[#646464] py-2 md:text-lg xl:text-xl 2xl:text-2xl">Di napoles</p>
-                  <p className="md:text-lg xl:text-xl 2xl:text-2xl">$13,99</p>
+                  <h2 className=" font-medium lg:text-base md:text-lg xl:text-xl 2xl:text-2xl">Pepperoni Pizza</h2>
+                  <p className=" text-[#646464] py-2 md:text-base xl:text-xl 2xl:text-2xl">Di napoles</p>
+                  <p className="md:text-base xl:text-xl 2xl:text-2xl">$13,99</p>
                 </div>
 
                 <div className="card-actions justify-center mt-5">
-                  <button className="py-3 px-8 bg-[#f72d57] text-white rounded-md">
+                  <button className="py-3 px-8 lg:text-[12px] md:text-base xl:text-base 2xl:text-lg bg-[#f72d57] text-white rounded-md">
                     Add to cart
                   </button>
                 </div>
@@ -123,7 +123,7 @@ const Popular = () => {
           <SwiperSlide>
             <div className="card bg-base-100 md:h-[350px] xl:h-[400px] 2xl:h-[450px] shadow-xl rounded-md">
               <img
-                className="absolute top-0 right-0  md:w-[28px] xl:w-[40px] 2xl:w-[50px] md:h-[40px] xl:h-[50px] 2xl:h-[60px] mr-5 "
+                className="absolute top-0 right-0  md:w-[28px] xl:w-[30px] 2xl:w-[50px] md:h-[40px] xl:h-[40px] 2xl:h-[60px] mr-5 "
                 src="https://i.ibb.co/HprLC3V/Group-3174-4.png"
                 alt=""
               />
@@ -136,13 +136,13 @@ const Popular = () => {
               </figure>
               <div className="card-body">
                 <div className=" text-center">
-                  <h2 className=" font-medium md:text-lg xl:text-2xl 2xl:text-2xl">Vegetarian Pizza</h2>
-                  <p className=" text-[#646464] py-2 md:text-lg xl:text-xl 2xl:text-2xl">Cosa di Mario</p>
-                  <p className="md:text-lg xl:text-xl 2xl:text-2xl">$12,99</p>
+                  <h2 className=" font-medium lg:text-base md:text-lg xl:text-xl 2xl:text-2xl">Vegetarian Pizza</h2>
+                  <p className=" text-[#646464] py-2  md:text-base xl:text-xl 2xl:text-2xl">Cosa di Mario</p>
+                  <p className="md:text-base xl:text-xl 2xl:text-2xl">$12,99</p>
                 </div>
 
                 <div className="card-actions justify-center mt-5">
-                  <button className="py-3 px-8 bg-[#f72d57] text-white rounded-md">
+                  <button className="py-3 px-8 lg:text-[12px] md:text-base xl:text-base 2xl:text-lg bg-[#f72d57] text-white rounded-md">
                     Add to cart
                   </button>
                 </div>
@@ -152,7 +152,7 @@ const Popular = () => {
           <SwiperSlide>
             <div className="card bg-base-100 md:h-[350px] xl:h-[400px] 2xl:h-[450px] shadow-xl rounded-md">
               <img
-                className="absolute top-0 right-0  md:w-[28px] xl:w-[40px] 2xl:w-[50px] md:h-[40px] xl:h-[50px] 2xl:h-[60px] mr-5 "
+                className="absolute top-0 right-0  md:w-[28px] xl:w-[30px] 2xl:w-[50px] md:h-[40px] xl:h-[40px] 2xl:h-[60px] mr-5 "
                 src="https://i.ibb.co/0Xxdtg5/Group-3174-6.png"
                 alt=""
               />
@@ -165,13 +165,13 @@ const Popular = () => {
               </figure>
               <div className="card-body">
                 <div className=" text-center">
-                  <h2 className=" font-medium md:text-lg xl:text-2xl 2xl:text-2xl">Mediterranean Pizza</h2>
-                  <p className=" text-[#646464] py-2 md:text-lg xl:text-xl 2xl:text-2xl">Milano</p>
-                  <p className="md:text-lg xl:text-xl 2xl:text-2xl">$15,99</p>
+                  <h2 className=" font-medium lg:text-base md:text-lg xl:text-base 2xl:text-2xl">Mediterranean Pizza</h2>
+                  <p className=" text-[#646464] py-2  md:text-base xl:text-xl 2xl:text-2xl">Milano</p>
+                  <p className="md:text-base xl:text-xl 2xl:text-2xl">$15,99</p>
                 </div>
 
                 <div className="card-actions justify-center mt-5">
-                  <button className="py-3 px-8 bg-[#f72d57] text-white rounded-md">
+                  <button className="py-3 px-8 lg:text-[12px] md:text-base xl:text-base 2xl:text-lg bg-[#f72d57] text-white rounded-md">
                     Add to cart
                   </button>
                 </div>
